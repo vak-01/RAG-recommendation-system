@@ -1,0 +1,462 @@
+{
+    "tea_blends" : [
+        {
+            "id": 1,
+            "name": "Earl Grey",
+            "type": "Black Tea",
+            "flavorProfile": [
+                "Bergamot",
+                "Citrusy",
+                "Malty"
+            ],
+            "caffeineLevel": "Medium",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$10.00"
+        },
+        {
+            "id": 2,
+            "name": "English Breakfast",
+            "type": "Black Tea",
+            "flavorProfile": [
+                "Malty",
+                "Bold",
+                "Rich"
+            ],
+            "caffeineLevel": "High",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": "16 oz",
+            "price": "$8.00"
+        },
+        {
+            "id": 3,
+            "name": "Green Tea",
+            "type": "Green Tea",
+            "flavorProfile": [
+                "Grassy",
+                "Vegetal",
+                "Umami"
+            ],
+            "caffeineLevel": "Moderate",
+            "looseLeaf": true,
+            "packaging": "Pouch",
+            "weight": "2 oz",
+            "price": "$7.00"
+        },
+        {
+            "id": 4,
+            "name": "Peppermint Tea",
+            "type": "Herbal Tea",
+            "flavorProfile": [
+                "Minty",
+                "Refreshing",
+                "Cooling"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$8.50"
+        },
+        {
+            "id": 5,
+            "name": "Chamomile Tea",
+            "type": "Herbal Tea",
+            "flavorProfile": [
+                "Floral",
+                "Honey-like",
+                "Calming"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": "20 bags",
+            "price": "$6.00"
+        },
+        {
+            "id": 6,
+            "name": "Darjeeling",
+            "type": "Black Tea",
+            "flavorProfile": [
+                "Musky",
+                "Astringent",
+                "Floral"
+            ],
+            "caffeineLevel": "High",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$15.00"
+        },
+        {
+            "id": 7,
+            "name": "Oolong Tea",
+            "type": "Oolong Tea",
+            "flavorProfile": [
+                "Floral",
+                "Fruity",
+                "Roasted"
+            ],
+            "caffeineLevel": "Medium",
+            "looseLeaf": true,
+            "packaging": "Pouch",
+            "weight": "3 oz",
+            "price": "$12.00"
+        },
+        {
+            "id": 8,
+            "name": "Rooibos Tea",
+            "type": "Herbal Tea",
+            "flavorProfile": [
+                "Nutty",
+                "Earthy",
+                "Slightly sweet"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": 20,
+            "price": "$7.50"
+        },
+        {
+            "id": 9,
+            "name": "Sencha Tea",
+            "type": "Green Tea",
+            "flavorProfile": [
+                "Seaweedy",
+                "Umami",
+                "Vegetal"
+            ],
+            "caffeineLevel": "Moderate",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$9.00"
+        },
+        {
+            "id": 10,
+            "name": "Pu-erh Tea",
+            "type": "Pu-erh Tea",
+            "flavorProfile": [
+                "Earthy",
+                "Musty",
+                "Smooth"
+            ],
+            "caffeineLevel": "Low",
+            "looseLeaf": true,
+            "packaging": "Cake",
+            "weight": "200g",
+            "price": "$20.00"
+        },
+        {
+            "id": 11,
+            "name": "White Tea",
+            "type": "White Tea",
+            "flavorProfile": [
+                "Delicate",
+                "Floral",
+                "Honey-like",
+                "Subtle vegetal"
+            ],
+            "caffeineLevel": "Low",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "3.5 oz",
+            "price": "$12.00",
+            "origin": "Fujian Province, China (primarily)",
+            "processing": "Minimal processing, withering and drying only"
+        },
+        {
+            "id": 12,
+            "name": "Masala Chai",
+            "type": "Black Tea",
+            "flavorProfile": [
+                "Spicy",
+                "Warm",
+                "Woody"
+            ],
+            "caffeineLevel": "Medium",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": "20 bags",
+            "price": "$5.50"
+        },
+        {
+            "id": 13,
+            "name": "Gunpowder Tea",
+            "type": "Green Tea",
+            "flavorProfile": [
+                "Smoky",
+                "Toasty",
+                "Earthy"
+            ],
+            "caffeineLevel": "High",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$13.00"
+        },
+        {
+            "id": 14,
+            "name": "Peppermint & Ginger Tea",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Minty",
+                "Spicy",
+                "Warming"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Pouch",
+            "weight": "3 oz",
+            "price": "$8.00"
+        },
+        {
+            "id": 15,
+            "name": "Hibiscus Tea",
+            "type": "Herbal Tea",
+            "flavorProfile": [
+                "Tart",
+                "Cranberry-like",
+                "Tangy"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": 20,
+            "price": "$6.50"
+        },
+        {
+            "id": 16,
+            "name": "Lemon & Ginger Tea",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Citrusy",
+                "Spicy",
+                "Zingy"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$9.50"
+        },
+        {
+            "id": 17,
+            "name": "Lavender Chamomile Tea",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Floral",
+                "Calming",
+                "Slightly sweet"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": 20,
+            "price": "$7.00"
+        },
+        {
+            "id": 18,
+            "name": "Jasmine Green Tea",
+            "type": "Green Tea Blend",
+            "flavorProfile": [
+                "Floral",
+                "Grassy",
+                "Sweet"
+            ],
+            "caffeineLevel": "Moderate",
+            "looseLeaf": true,
+            "packaging": "Pouch",
+            "weight": "3 oz",
+            "price": "$10.00"
+        },
+        {
+            "id": 19,
+            "name": "Rooibos Chai",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Spicy",
+                "Nutty",
+                "Warm"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$8.00"
+        },
+        {
+            "id": 20,
+            "name": "Matcha Green Tea",
+            "type": "Green Tea",
+            "flavorProfile": [
+                "Earthy",
+                "Umami",
+                "Slightly sweet"
+            ],
+            "caffeineLevel": "High",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "2 oz",
+            "price": "$18.00"
+        },
+        {
+            "id": 21,
+            "name": "Chrysanthemum Tea",
+            "type": "Herbal Tea",
+            "flavorProfile": [
+                "Floral",
+                "Slightly sweet",
+                "Light"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": 20,
+            "price": "$4.50"
+        },
+        {
+            "id": 22,
+            "name": "Tieguanyin Tea",
+            "type": "Oolong Tea",
+            "flavorProfile": [
+                "Floral",
+                "Buttery",
+                "Roasted"
+            ],
+            "caffeineLevel": "Medium",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$16.00"
+        },
+        {
+            "id": 23,
+            "name": "Dragonwell Green Tea",
+            "type": "Green Tea",
+            "flavorProfile": [
+                "Nutty",
+                "Toasty",
+                "Slightly sweet"
+            ],
+            "caffeineLevel": "Moderate",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$14.00"
+        },
+        {
+            "id": 24,
+            "name": "Tulsi Tea (Holy Basil Tea)",
+            "type": "Herbal Tea",
+            "flavorProfile": [
+                "Spicy",
+                "Peppery",
+                "Earthy"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Pouch",
+            "weight": "3 oz",
+            "price": "$7.00"
+        },
+        {
+            "id": 25,
+            "name": "Moroccan Mint Tea",
+            "type": "Green Tea Blend",
+            "flavorProfile": [
+                "Minty",
+                "Sweet",
+                "Slightly floral"
+            ],
+            "caffeineLevel": "Moderate",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$9.00"
+        },
+        {
+            "id": 26,
+            "name": "Liu Bao Tea",
+            "type": "Black Tea",
+            "flavorProfile": [
+                "Earthy",
+                "Woody",
+                "Smooth"
+            ],
+            "caffeineLevel": "Medium",
+            "looseLeaf": true,
+            "packaging": "Cake",
+            "weight": "200g",
+            "price": "$16.00"
+        },
+        {
+            "id": 27,
+            "name": "Sencha & Sakura Tea",
+            "type": "Green Tea Blend",
+            "flavorProfile": [
+                "Floral",
+                "Delicate",
+                "Slightly sweet"
+            ],
+            "caffeineLevel": "Moderate",
+            "looseLeaf": true,
+            "packaging": "Pouch",
+            "weight": "3 oz",
+            "price": "$11.00"
+        },
+        {
+            "id": 28,
+            "name": "Berry Hibiscus Tea",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Tart",
+                "Berry-like",
+                "Tangy"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": 20,
+            "price": "$6.00"
+        },
+        {
+            "id": 29,
+            "name": "Ginger & Turmeric Tea",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Spicy",
+                "Earthy",
+                "Slightly peppery"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Tin",
+            "weight": "4 oz",
+            "price": "$8.50"
+        },
+        {
+            "id": 30,
+            "name": "Yogi Tea",
+            "type": "Herbal Tea Blend",
+            "flavorProfile": [
+                "Spicy",
+                "Warming",
+                "Sweet"
+            ],
+            "caffeineLevel": "None",
+            "looseLeaf": true,
+            "packaging": "Bag",
+            "weight": 20,
+            "price": "$5.00"
+        }
+    ]
+}
+
+
+
+
+    
